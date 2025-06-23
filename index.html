@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>My Practice Page</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Bienvenido a mi pagina de practica de html</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio">
+      <article>
+        <h2>Intereses de MIWELO</h2>
+        <p>Aprender en 1 mes lo siguiente</p>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </article>
+    </section>
+
+    <section>
+      <h2>Formulario</h2>
+      <form>
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name" />
+        <br><br>
+        <label for="email">Correo Electrónico</label>
+        <input type="email" id="email" name="email" />
+        <br><br>
+        <label for="color">Color Favorito</label>
+        <select id="color" name="color">
+          <option value="rojo">Rojo</option>
+          <option value="azul">Azul</option>
+          <option value="verde">Verde</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Enviar" />
+      </form>
+    </section>
+
+    <section>
+      <table>
+        <caption>Table Food</caption>
+        <thead>
+          <tr>
+            <th>Comida</th>
+            <th>Sabor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>2</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Pasatiempos Favoritos</h2>
+      <ol>
+        <li>Programar</li>
+        <li>Jugar</li>
+        <li>Escuchar Musica</li>
+      </ol>
+    </section>
+
+    <section id="imgs">
+      <h2>Imagenes</h2>
+      <figure>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp-_6xsw-5CJo5zcpjBF8rsgCwwLD5Gl1PEQ&s" alt="Imagen aleatoria" />
+        <figcaption>Logo HTML</figcaption>
+      </figure>
+    </section>
+
+    <section>
+      <dl>
+        <h2>Definiciones</h2>
+        <dt>HTML</dt>
+        <dd>Lenguaje de hipertexto o etiquetas</dd>
+        <dt>CSS</dt>
+        <dd>Lenguaje de diseño web</dd>
+      </dl>
+    </section>
+
+    <section>
+      <h2>enlaces</h2>
+      <li><a href="https://htmlmasters.tech/listas-definicion-html/" target="_blank">HTML Masters</a></li>
+      <li><a href="#inicio">Inicio</a></li>
+      <br>
+    </section>
+
+    <section>
+      <table>
+        <caption>Tabla de Comida</caption>
+        <thead>
+          <tr>
+            <th>Comida</th>
+            <th>Sabor</th>
+            <th colspan="2">Gusto</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Pizza</td>
+            <td>Salado</td>
+            <td>Delicioso</td>
+          </tr>
+          <tr>
+            <td>Helado</td>
+            <td>Dulce</td>
+            <td rowspan="2">Fresco</td>
+          </tr>
+        </tbody>
+      </table>
+      <aside>
+        Dato curioso: HTML significa HyperText Markup Language.
+      </aside>
+    </section>
+
+    <section>
+      <form>
+        <label for="username">Usuario</label>
+        <select name="username" id="username" multiple>
+          <option value="admin">Administrador</option>
+          <option value="user">Usuario</option>
+          <option value="guest">Invitado</option>
+        </select>
+        <br><br>
+        <label for="comments">Comentarios</label>
+        <br>
+        <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+        <br>
+        <details>
+          <summary>Información adicional</summary>
+          <p>Este es un párrafo de información oculta. Se mostrará cuando el usuario haga clic en "Información adicional".</p>
+        </details>
+        <br>
+        <input type="submit" value="Iniciar Sesión" />
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    Pagina creada por miwelo
+  </footer>
+
+</body>
+</html>
